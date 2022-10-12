@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ViewMessagePage } from './view-message.page';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ViewMessagePageRoutingModule } from './view-message-routing.module';
+import { MovieDetailPageRoutingModule } from './movie-detail-routing.module';
+
+import { MovieDetailPage } from './movie-detail.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ViewMessagePageRoutingModule
+    MovieDetailPageRoutingModule
   ],
-  declarations: [ViewMessagePage]
+  declarations: [MovieDetailPage]
 })
-export class ViewMessagePageModule {}
+export class MovieDetailPageModule {}
